@@ -1,6 +1,11 @@
 \documentclass[12pt]{article}
+\usepackage{enumitem}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{xcolor}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem} % [normalem] prevents the package from changing the default behavior of `\emph` to dashuline.
+
+
 \renewcommand{\familydefault}{\sfdefault}
 
 \pagecolor[rgb]{0.15625,0.15625,0.15625} %black
@@ -11,17 +16,29 @@
 
 \section*{Precalc notes}
 
-Don't forget to include examples of topicalization.
-They look like this:
-
-\subsection*{How to handle topicalization}
-
-\subsection*{Mood}
-
-Mood changes when there is a topic, as well as when
-there is WH-movement.  \emph{Irrealis} is the mood when
-there is a non-subject topic or WH-phrase in Comp.
-\emph{Realis} is the mood when there is a subject topic
-or WH-phrase.
+\begin{enumerate}
+  \item \begin{enumerate}
+          \item $x$
+          \item $-4$
+          \item $\frac 3 2$
+          \item $\sqrt 5$
+        \end{enumerate}
+  \item \begin{enumerate}
+          \item $ab=ba$; associative property
+          \item $a + (b + c) = (a + b) + c$; commutative property
+          \item $a(b + c) = ab + ac$; Distributive property
+        \end{enumerate}
+  \item \begin{enumerate}
+          \item $A = \{x \mid x \in \mathbb{R} \mid 2 < x < 7 \}$
+          \item $(2,7)$
+        \end{enumerate}
+  \item
+        \begin{enumerate}
+          \item The symbol $x$ stands for the \dashuline{absolute value} of the number x.
+                \newline If $x$ is not 0, then she sign of $|x|$ is always \dashuline{positive}
+        \end{enumerate}
+  \item The distance between $a$ and $b$ on the real line is $d(a,b) = \dashuline{|a-b|}$.
+        \newline So the distance between $-5$ and $2$ is \dashuline{...}.
+\end{enumerate}
 
 \end{document}
